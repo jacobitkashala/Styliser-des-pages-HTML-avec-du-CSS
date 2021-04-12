@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'PoliceTitre';
+    src: url('URW Baskerville W10 Ultra Bold.ttf');
+}
+
+body {
+    background-color: #c8c8c8;
+}
+
+.conteneur {
+    position: absolute;
+    top: 0px;
+    left: 90px;
+    right: 90px;
+    /*border: 3px black solid;*/
+    /*transform: translate(-50%,-50%);*/
+}
+
+#titre {
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'PoliceTitre', 'Times New Roman', Helvetica, serif;
+    font-size: 6em;
+}
+
+.paraHist {
+    /*color:#ce0025;*/
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: #ce0025;
+}
+
+.illstration {
+    word-wrap: break-all;
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, serif;
+}
+
+#sousTitre1 {
+    font-size: 2.0em;
+    font-family: 'PoliceTitre', Helvetica, serif;
+    color: #ce0025;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 1.4em;
+}
+
+table thead tr th {
+    color: white;
+    font-weight: bolder;
+    padding: 12px;
+    background-color: black;
+}
+
+table tbody tr td {
+    padding: 12px;
+}
+
+.module1 {
+    background-color: #dddddd;
+}
+
+.annee {
+    font-weight: bolder;
+}
+
+table tbody :hover {
+    background-color: #999999
+}
+
+.figure {
+    position: relative;
+    left: 0px;
+    right: 0px;
+    border: 5px #ce0025 solid;
+    border-radius: 15px;
+    padding: 45px;
+    background-color: #333333;
+    word-wrap: break-all;
+    display: inline-block;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 94%;
+}
+
+img {
+    position: relative;
+    width: 100%;
+}
+
+figure figcaption {
+    color: white;
+    font-size: 1.6em;
+    text-align: center;
+}
+
+h2 {
+    color: #ce0025;
+    font-weight: bolder;
+    font-size: 2.0em;
+    margin-bottom: 28px;
+    font-family: 'PoliceTitre';
+}
+
+p,
+blockquote,
+ul li {
+    font-size: 1.8em;
+}
+
+pre {
+    border: 3px #4e41ae dashed;
+}
+
+.conclusion {
+    background-color: #b7b7b7;
+    margin-left: 60px;
+    margin-right: 15px;
+    padding: 20px;
+    color: #5246ae;
+    font-size: 1.8em;
+}
