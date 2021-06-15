@@ -109,10 +109,12 @@ ul li {
     font-size: 1.8em;
 }
 
-pre {
-    border: 3px #4e41ae dashed;
+.dot-dashed {
+    border: 4px #4e41ae dashed;
 }
-
+#pied{
+    margin-right:0px ;
+}
 .conclusion {
     background-color: #b7b7b7;
     margin-left: 60px;
